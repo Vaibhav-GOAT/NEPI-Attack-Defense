@@ -27,6 +27,6 @@ The dataset contains:
 
 This repository only provides a **small sample dataset** for demonstration and reproducibility.
 
-The full dataset (3000+ prompts) will be released separately on HuggingFace:
+The full dataset (3000+ prompts) will be released separately on HuggingFace: https://huggingface.co/datasets/Vaibhav-GOAT/nepi-prompts-dataset
 
 
