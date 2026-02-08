@@ -1,1 +1,56 @@
+{
+  "dataset_name": "nepi-prompts-dataset",
+  "version": "1.0",
+  "description": "Narrative-Embedded Prompt Injection (NEPI) dataset containing benign prompts, baseline jailbreak prompts, and NEPI narrative prompts labeled for defense evaluation.",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "description": "Unique prompt identifier"
+    },
+    {
+      "name": "prompt",
+      "type": "string",
+      "description": "The full prompt text"
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "allowed_values": ["Safe", "Suspicious", "Malicious"],
+      "description": "Ground truth classification label"
+    },
+    {
+      "name": "attack_family",
+      "type": "string",
+      "allowed_values": ["Benign", "Traditional", "NEPI"],
+      "description": "High-level prompt family"
+    },
+    {
+      "name": "attack_type",
+      "type": "string",
+      "allowed_values": [
+        "none",
+        "ignore_override",
+        "delimiter_attack",
+        "dan_style",
+        "roleplay_jailbreak",
+        "role_based",
+        "dialogue_based",
+        "monologue_based",
+        "mixed_intent"
+      ],
+      "description": "Specific attack taxonomy type"
+    },
+    {
+      "name": "target_goal",
+      "type": "string",
+      "description": "High-level intended objective (e.g., role manipulation, social engineering, narrative hijacking)"
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "description": "Where the prompt was generated (manual, template, synthetic)"
+    }
+  ]
+}
 
