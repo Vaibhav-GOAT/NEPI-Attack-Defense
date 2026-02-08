@@ -20,7 +20,7 @@ We recommend using **Google Colab** with GPU enabled, since most tested models r
 
 Colab link (official reproduction notebook):
 
-https://colab.research.google.com/drive/<your-colab-id>
+https://colab.research.google.com/drive/1zwlhjOY_ra3-USTzXeGt4xICgyRN5qvx?usp=sharing
 
 
 ---
@@ -60,7 +60,7 @@ dataset/nepi_dataset_sample.csv
 
 The full dataset will be released on HuggingFace:
 
-https://huggingface.co/datasets/<your-dataset-name>
+https://huggingface.co/datasets/nepi-prompts-dataset
 Dataset schema is documented in:
 
 dataset/schema.json
