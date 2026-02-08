@@ -1,1 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, dataset, or codebase in your research, please cite it."
+title: "Narrative-Embedded Prompt Injection (NEPI): Attack and Defense Framework"
+version: "1.0.0"
+date-released: "2026-02-08"
+url: "https://github.com/Vaibhav-GOAT/NEPI-Attack-Defense"
+repository-code: "https://github.com/Vaibhav-GOAT/NEPI-Attack-Defense"
+license: "MIT"
+
+authors:
+  - family-names: "Pawar"
+    given-names: "Vaibhav"
+    affiliation: "Dr. B. R. Ambedkar National Institute of Technology Jalandhar"
+    email: "vaibhavpp.is.24@nitj.ac.in"
+
+  - family-names: "Urvashi"
+    given-names: "Dr."
+    affiliation: "Dr. B. R. Ambedkar National Institute of Technology Jalandhar"
+    email: "urvashi@nitj.ac.in"
+
+keywords:
+  - Prompt Injection
+  - Large Language Models
+  - LLM Security
+  - Jailbreak Attacks
+  - Narrative Attacks
+  - Red Teaming
+  - AI Safety
+  - NEPI
+
+abstract: >
+  This repository provides the official implementation of Narrative-Embedded Prompt Injection (NEPI),
+  a novel prompt injection technique that embeds adversarial intent within fictional narratives, role-play,
+  and dialogue structures. It also includes a hybrid defense framework based on prompt classification,
+  suspicious prompt revision, and post-generation output validation, along with evaluation scripts and
+  reproducibility artifacts.
+
+preferred-citation:
+  type: article
+  title: "Narrative-Embedded Prompt Injection in Large Language Models: Attack Characterization and Defense Strategies"
+  authors:
+    - family-names: "Pawar"
+      given-names: "Vaibhav"
+    - family-names: "Urvashi"
+      given-names: "Dr."
+  year: 2026
+  url: "https://github.com/Vaibhav-GOAT/NEPI-Attack-Defense"
 
