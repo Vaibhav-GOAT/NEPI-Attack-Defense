@@ -1,1 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+logs/
+
+# Results / Outputs
+results/*.csv
+results/*.json
+results/*.txt
+results/figures/*.png
+results/figures/*.pdf
+
+# Model caches / HuggingFace
+.cache/
+hf_cache/
+huggingface_cache/
+**/.cache/
+**/wandb/
+
+# Torch / CUDA cache
+*.pt
+*.bin
+*.ckpt
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets
+.env
+*.key
+*.token
+secrets/
 
